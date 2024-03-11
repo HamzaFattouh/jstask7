@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+div button {
+    border-radius: 100%;
+    padding: 10px;
+}
